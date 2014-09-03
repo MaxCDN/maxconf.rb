@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'maxconf'
-  s.version     = '0.0.1'
+  s.version     = '1.0.0'
   s.date        = '2014-07-24'
   s.summary     = "maxconf"
   s.description = "A sub-stack lib for configuring ruby-maxcdn using maxcli configuration method."

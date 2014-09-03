@@ -22,21 +22,25 @@ gem install maxconf
 require 'maxconf'
 
 # default
+###
 conf = MaxConf.load()
 puts conf["alias"]
-=> YOUR_ALIAS
+# => YOUR_ALIAS
 
 # custom file path
+###
 conf = MaxConf.load("/path/to/maxcdn.yml")
 puts conf["alias"]
-=> YOUR_ALIAS
+# => YOUR_ALIAS
 
 # option overides
+###
 opts = {
   "file" => "/path/to/maxcdn.yml",
   "alias" => "ALIAS_OVERIDE"
 }
+
 conf = MaxConf.load(opts)
 puts conf["alias"]
-=> ALIAS_OVERIDE
+# => ALIAS_OVERIDE
 ```
