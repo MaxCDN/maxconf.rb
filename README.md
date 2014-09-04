@@ -44,3 +44,9 @@ conf = MaxConf.load(opts)
 puts conf["alias"]
 # => ALIAS_OVERIDE
 ```
+
+### Tests
+
+```
+$ ruby ./test/maxconf_test.rb
+```
